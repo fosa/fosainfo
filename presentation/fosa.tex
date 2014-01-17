@@ -1,15 +1,59 @@
 \section{FOSA}
 
-\subsection{Entstehung}
+\subsection{Idee und Ziele}
+\begin{frame}
+	\frametitle{Was ist FOSA? \hfill{} \footnotesize{FOSA}}
+	\begin{block}{FOSA ist \dots mittlerweile der Name für vieles!}
+		\begin{itemize}
+			\item eine Gruppe bei Github
+			\item ein Projekt von Studenten
+			\item einige Formelsammlungen 
+		\end{itemize}
+	\end{block}
+\end{frame}
+
 \begin{frame}
 	\frametitle{Wie ist FOSA entstanden? \hfill{} \footnotesize{FOSA}}
+	\begin{block}{Meilensteine}
+		\begin{itemize}
+			\item Erste Notizen als \LaTeX~Code
+			\item Portierung auf Github
+			\item Erweiterung des Core-Development Teams
+			\item Entstehung eigener IT-Infrastruktur
+			\item Build-Server und Webdienst online
+			\item Erste Print-Ausgaben
+		\end{itemize}
+	\end{block}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Wer macht bei FOSA mit? \hfill{} \footnotesize{FOSA}}
+	\textit{"`Gerade dann, wenn man am wenigsten freie Zeit hat, 
+	macht man in der Tat am meisten"'.}
+
+	\hfill{} --- (Nino Ninux)
+	\vfill{}
+	\begin{block}{Core-Team}
+		\begin{itemize}
+			\item Core-Developer
+				\begin{itemize}
+					\item Daniel Winz 
+						\hfill{} \footnotesize
+						ET, BB \normalsize
+					\item Ervin Mazlagi\'c
+						\hfill{} \footnotesize
+						ET, BB \normalsize
+				\end{itemize}
+			\item IT-Systemtechniker
+				\begin{itemize}
+					\item Adrian Imboden
+						\hfill{} \footnotesize
+						INF, BB \normalsize
+				\end{itemize}
+		\end{itemize}
+	\end{block}
 \end{frame}
 
-\subsection{Ziele}
 \begin{frame}
 	\frametitle{Wozu eigentlich FOSA? \hfill{} \footnotesize{FOSA}}
 	Wir möchten eine \textbf{freie} Sammlung von 
@@ -61,4 +105,53 @@
 				\normalsize
 		\end{itemize}
 	\end{exampleblock}
+\end{frame}
+
+\subsection{Organisation}
+\begin{frame}
+	\frametitle{Wie arbeitet FOSA zusammen? 
+		\hfill{} \footnotesize{FOSA}}
+	\begin{block}{Hohe Kohäsion und lose Kopplung!}
+		\begin{itemize}
+			\item \TeX, \LaTeX 
+				\hfill{} 
+				\footnotesize{D. E. Knuth, L. Lamport} 
+				\normalsize
+			\item git -- "`the stupid content tracker"'
+				\hfill{}
+				\footnotesize{L. Torvalds}
+				\normalsize
+			\item github -- Social Coding
+			\item Jenkinks -- Continuous Integration
+				\hfill{}
+				\footnotesize{java}
+				\normalsize
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{Tools}
+\begin{frame}
+	\frametitle{Was ist \TeX~und \LaTeX?}
+	\begin{columns}
+		\begin{column}{5cm}
+			\TeX~ ist sowohl eine Programmiersprache als auch 
+			ein Programm welches \dots
+			\begin{itemize}
+				\item von D. E. Knuth stammt
+				\item gemacht wurde um Bücher zu schreiben
+				\item Autoren Inhalte und Layout trennen 
+					lässt
+				\item Lesbaren Code zu "`Büchern"' wandelt
+			\end{itemize}
+		\end{column}
+		\begin{column}{5cm}
+			\begin{figure}
+				\centering
+				% http://en.wikipedia.org/wiki/File%3aPrinter_in_1568-ce.png
+				\includegraphics[width=0.8\textwidth]{printer.png}
+				\caption{Textsetzer im Jahre 1568 --- (Wikipedia) }
+			\end{figure}
+		\end{column}
+	\end{columns}
 \end{frame}
