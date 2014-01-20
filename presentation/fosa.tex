@@ -14,7 +14,7 @@
 
 \begin{frame}
 	\frametitle{Wie ist FOSA entstanden? \hfill{} \footnotesize{FOSA}}
-	\begin{block}{Meilensteine}
+	\begin{block}{Meilensteine der Entwicklung}
 		\begin{itemize}
 			\item Erste Notizen als \LaTeX~Code
 			\item Portierung auf Github
@@ -29,7 +29,7 @@
 \begin{frame}
 	\frametitle{Wer macht bei FOSA mit? \hfill{} \footnotesize{FOSA}}
 	\textit{"`Gerade dann, wenn man am wenigsten freie Zeit hat, 
-	macht man in der Tat am meisten"'.}
+	macht man in der Tat am meisten."'}
 
 	\hfill{} --- (Nino Ninux)
 	\vfill{}
@@ -44,7 +44,7 @@
 						\hfill{} \footnotesize
 						ET, BB \normalsize
 				\end{itemize}
-			\item IT-Systemtechniker
+			\item Maintainer
 				\begin{itemize}
 					\item Adrian Imboden
 						\hfill{} \footnotesize
@@ -52,6 +52,24 @@
 				\end{itemize}
 		\end{itemize}
 	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Wer macht bei FOSA mit? \hfill{} \footnotesize{FOSA}}
+	\framesubtitle{Graphische Analyse von Github --- fosamath}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\textwidth]{fosamath-additions.png}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Wann arbeitet man bei FOSA mit? \hfill{} \footnotesize{FOSA}}
+	\framesubtitle{\dots meistens dann, wenn man keine Zeit hat!}
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\textwidth]{fosamath-punchcard.png}
+	\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -122,12 +140,21 @@
 				\footnotesize{L. Torvalds}
 				\normalsize
 			\item github -- Social Coding
-			\item Jenkinks -- Continuous Integration
+			\item Jenkins -- Continuous Integration
 				\hfill{}
 				\footnotesize{java}
 				\normalsize
 		\end{itemize}
 	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Der FOSA-Kreislauf}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\textwidth]{fosa-loop.pdf}
+
+	\end{figure}
 \end{frame}
 
 \subsection{Tools}
@@ -152,6 +179,99 @@
 				\includegraphics[width=0.8\textwidth]{printer.png}
 				\caption{Textsetzer im Jahre 1568 --- (Wikipedia) }
 			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Was ist Git? \hfill{} \footnotesize{FOSA}}
+	\begin{columns}
+		\begin{column}{5cm}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{git_logo.pdf}
+				\caption{Offizielles Git Logo}
+			\end{figure}
+			\footnotesize{
+				\textbf{git}[\textipa{git}] - a bastard or fool
+				\epigraph{\textit{"`I'm an egoistical bastard, and I name all 
+				my projects after myself. First Linux, 
+				now git."'}}{Linus Torvalds}
+			}\normalsize
+		\end{column}
+		\begin{column}{5cm}
+			\begin{block}{Überblick}
+				\begin{itemize}
+					\item Verwaltungssystem
+					\item nicht linear
+					\item dezentral
+					\item sicher \& stabil
+					\item FreeSoftware
+					\item Plattformunabhängig
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Wozu ein Verwaltungstool?\hfill{} \footnotesize{FOSA}}
+	\begin{columns}
+		\begin{column}{5cm}
+			\begin{figure}
+				\includegraphics[scale=0.5]{git_tree.eps}\\
+				\textcolor{blue}{~~~~~~fork~~} -- 
+				\textcolor{red}{~master~} -- 
+				\textcolor{darkgreen}{~branch}
+				\caption{Projetkbaum}
+			\end{figure}
+		\end{column}
+		\begin{column}{5cm}
+			\begin{block}{Fork, Master \& Branch}
+				\begin{itemize}
+					\item \textcolor{red}{Arbeiten an der FOSA}
+					\item \textcolor{darkgreen}{Version FS13}
+					\item \textcolor{darkgreen}{Korrekturen im FS13}
+					\item \textcolor{blue}{Übernahme der Kopie und Erweiterungen}
+		                        \item \textcolor{red}{Das Beste kommt zusammen für HS13}
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Github --- Social Coding \hfill{} \footnotesize{FOSA}}
+	\begin{columns}
+	        \begin{column}{5cm}
+			\begin{figure}
+				\centering
+				\includegraphics[scale=0.08]{github_network.jpg}
+			\end{figure}
+				\vfill{}
+			\begin{figure}
+				\centering
+				\includegraphics[scale=0.15]{github_logo.eps}
+				\caption{Github -- Soziales Netzwerk}
+			\end{figure}
+		\end{column}
+		\begin{column}{5cm}
+			\begin{block}{Was ist Github?}
+		                \begin{itemize}
+					\item Host für Repositories
+					\item Private \& Enterprise
+					\item Most Popular Host
+				\end{itemize}
+			\end{block}
+			\begin{block}{Was ist speziell?}
+				\begin{itemize}
+					\item User im Zentrum
+					\item Projekmanagement
+					\item Git-Anbindung
+					\item Simpel \& stabil
+				\end{itemize}
+			\end{block}
 		\end{column}
 	\end{columns}
 \end{frame}
